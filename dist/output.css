@@ -572,6 +572,10 @@ video {
   width: 100%;
 }
 
+.w-input-1 {
+  width: 426px;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -638,6 +642,11 @@ video {
   border-color: rgb(115 115 115 / var(--tw-border-opacity));
 }
 
+.border-twitter-blue-default {
+  --tw-border-opacity: 1;
+  border-color: rgb(29 155 240 / var(--tw-border-opacity));
+}
+
 .bg-neutral-1000 {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -652,8 +661,17 @@ video {
   background-color: transparent;
 }
 
+.bg-twitter-blue-default {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 155 240 / var(--tw-bg-opacity));
+}
+
 .p-medium-1 {
   padding: 8px 24px;
+}
+
+.p-medium-2 {
+  padding: 15px 93px;
 }
 
 .px-1 {
@@ -822,6 +840,11 @@ video {
 .hover\:bg-neutral-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-twitter-blue-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 113 202 / var(--tw-bg-opacity));
 }
 
 .group:focus-within .group-focus-within\:text-twitter-blue-default {
