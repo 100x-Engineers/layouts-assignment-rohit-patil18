@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compose Tweet</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-1000 text-neutral-50">
+    <header class="py-3 px-4 flex items-center justify-between">
+      <a href="../home-feed/index.html">
+        <img src="../../public/images/cross.svg" alt="close" />
+      </a>
+      <button
+        type="button"
+        class="bg-twitter-blue-default p-small-2 rounded-button-small font-inter font-bold text-base hover:cursor-pointer hover:bg-twitter-blue-hover text-neutral-50"
+      >
+        Post
+      </button>
+    </header>
+    <main class="py-2 px-4">
+      <div class="flex items-start gap-3">
+        <img src="../../public/images/profile-avatar.svg" alt="user avatar" />
+
+        <textarea
+          rows="10"
+          cols="50"
+          name="input"
+          id="input"
+          class="w-full bg-transparent text-neutral-50 outline-none caret-twitter-blue-default font-inter text-xl leading-none focus:outline-none resize-none"
+          placeholder="What’s happening?!"
+        ></textarea>
+      </div>
+    </main>
+    <footer class="px-4 py-3 fixed bottom-0">
+      <p class="text-sm text-neutral-500">0/280</p>
+    </footer>
+  </body>
+</html>
