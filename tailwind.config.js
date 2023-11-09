@@ -25,7 +25,8 @@ module.exports = {
         "green-success": "#00BE74",
         "red-error": "#8B141A",
         "stroke": "rgba(29, 155, 240, 0.24)",
-        "paragraph": "rgba(255, 255, 255, 0.6)"
+        "paragraph": "rgba(255, 255, 255, 0.6)",
+        "tab-button": "rgba(247, 249, 249, 0.1)"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

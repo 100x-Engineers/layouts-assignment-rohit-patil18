@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X | Home</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="h-screen flex flex-col bg-neutral-1000 text-neutral-50">
+    <header>
+      <section class="py-3 px-4 flex items-center border-b border-neutral-700">
+        <img src="../../public/images/profile-avatar.svg" alt="Go To Profile" />
+        <div class="mx-auto">
+          <img src="../../public/images/100x.svg" alt="100X" />
+        </div>
+      </section>
+      <section class="w-full flex justify-between border-b border-neutral-700">
+        <div class="w-full pb-3 text-center pt-5 hover:bg-tab-button">
+          <input
+            class="hidden peer/for_you"
+            type="radio"
+            value="for-you"
+            id="for-you"
+            name="tab"
+            checked
+          />
+          <label
+            class="text-base font-medium text-neutral-400 pb-3 border-b-[3px] border-transparent cursor-pointer peer-checked/for_you:text-neutral-50 peer-checked/for_you:border-twitter-blue-default"
+            for="for-you"
+            >For you</label
+          >
+        </div>
+        <div class="w-full text-center pb-3 pt-5 hover:bg-tab-button">
+          <input
+            class="peer/following hidden"
+            type="radio"
+            value="following"
+            id="following"
+            name="tab"
+          />
+          <label
+            class="text-base font-medium text-neutral-400 pb-3 border-b-[3px] border-transparent cursor-pointer peer-checked/following:text-neutral-50 peer-checked/following:border-twitter-blue-default"
+            for="following"
+            >Following</label
+          >
+        </div>
+      </section>
+    </header>
+    <main class="pb-20">
+      <div>
+        <section
+          class="flex bg-neutral-1000 p-tweet gap-4 border-b border-neutral-700"
+        >
+          <div class="w-12 h-12 shrink-0">
+            <img
+              src="../../public/images/user-avatar1.svg"
+              alt="Profile image"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2 w-full">
+            <div class="flex flex-col gap-1">
+              <div class="flex gap-2 items-center">
+                <p class="text-neutral-50 text-base font-medium">Name</p>
+                <p class="text-neutral-500">@handle • 32m</p>
+              </div>
+
+              <div class="text-base text-neutral-50">
+                Don't wish for it, work for it.
+              </div>
+            </div>
+
+            <div>
+              <div class="py-3 flex justify-between items-center">
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/comment.svg" alt="comment" />
+                  <p class="text-sm text-neutral-500">11</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/retweet.svg" alt="retweet" />
+                  <p class="text-sm text-neutral-500">270</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/heart.svg" alt="like" />
+                  <p class="text-sm text-neutral-500">1,869</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/reach.svg" alt="views" />
+                  <p class="text-sm text-neutral-500">99.6K</p>
+                </div>
+                <div>
+                  <img src="../../public/images/share.svg" alt="share" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex bg-neutral-1000 p-tweet gap-4 border-b border-neutral-700"
+        >
+          <div class="w-12 h-12 shrink-0">
+            <img
+              src="../../public/images/user-avatar3.svg"
+              alt="Profile image"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2 w-full">
+            <div class="flex flex-col gap-1">
+              <div class="flex gap-2 items-center">
+                <p class="text-neutral-50 text-base font-medium">Name</p>
+                <p class="text-neutral-500">@handle • 10h</p>
+              </div>
+
+              <div class="text-base text-neutral-50">
+                Writing gets easier after the first sentence.
+                <br />
+                <br />
+                Lifting gets easier after the first set.
+
+                <br />
+                <br />
+                People think and think and think until they finally decide to
+                act. Their attention shifts from internal to external, and the
+                difficulty they created in their mind vanishes.
+              </div>
+            </div>
+
+            <div>
+              <div class="py-3 flex justify-between items-center">
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/comment.svg" alt="comment" />
+                  <p class="text-sm text-neutral-500">11</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/retweet.svg" alt="retweet" />
+                  <p class="text-sm text-neutral-500">270</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/heart.svg" alt="like" />
+                  <p class="text-sm text-neutral-500">1,869</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/reach.svg" alt="views" />
+                  <p class="text-sm text-neutral-500">99.6K</p>
+                </div>
+                <div>
+                  <img src="../../public/images/share.svg" alt="share" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex bg-neutral-1000 p-tweet gap-4 border-b border-neutral-700"
+        >
+          <div class="w-12 h-12 shrink-0">
+            <img
+              src="../../public/images/user-avatar2.svg"
+              alt="Profile image"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2 w-full">
+            <div class="flex flex-col gap-1">
+              <div class="flex gap-2 items-center">
+                <p class="text-neutral-50 text-base font-medium">Name</p>
+                <p class="text-neutral-500">@handle • 10h</p>
+              </div>
+
+              <div class="text-base text-neutral-50">
+                i've seen people absolutely despise auto layout in figma but i
+                think it's a lifesaver-
+                <br />
+                1. tidies everything nice and compact
+                <br />
+                2. makes responsive design effortless
+                <br />
+                3. no manual adjustments post any tweaks
+                <br />
+                4. saves a tonnn of time
+                <br />
+                <br />
+                sorry, but will stay an auto layout maxi all life.
+              </div>
+            </div>
+
+            <div>
+              <div class="py-3 flex justify-between items-center">
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/comment.svg" alt="comment" />
+                  <p class="text-sm text-neutral-500">11</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/retweet.svg" alt="retweet" />
+                  <p class="text-sm text-neutral-500">270</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/heart.svg" alt="like" />
+                  <p class="text-sm text-neutral-500">1,869</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/reach.svg" alt="views" />
+                  <p class="text-sm text-neutral-500">99.6K</p>
+                </div>
+                <div>
+                  <img src="../../public/images/share.svg" alt="share" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex bg-neutral-1000 p-tweet gap-4 border-b border-neutral-700"
+        >
+          <div class="w-12 h-12 shrink-0">
+            <img
+              src="../../public/images/user-avatar3.svg"
+              alt="Profile image"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2 w-full">
+            <div class="flex flex-col gap-1">
+              <div class="flex gap-2 items-center">
+                <p class="text-neutral-50 text-base font-medium">Name</p>
+                <p class="text-neutral-500">@handle • 10h</p>
+              </div>
+
+              <div class="text-base text-neutral-50">
+                Writing gets easier after the first sentence.
+                <br />
+                <br />
+                Lifting gets easier after the first set.
+
+                <br />
+                <br />
+                People think and think and think until they finally decide to
+                act. Their attention shifts from internal to external, and the
+                difficulty they created in their mind vanishes.
+              </div>
+            </div>
+
+            <div>
+              <div class="py-3 flex justify-between items-center">
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/comment.svg" alt="comment" />
+                  <p class="text-sm text-neutral-500">11</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/retweet.svg" alt="retweet" />
+                  <p class="text-sm text-neutral-500">270</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/heart.svg" alt="like" />
+                  <p class="text-sm text-neutral-500">1,869</p>
+                </div>
+                <div class="flex gap-[5px]">
+                  <img src="../../public/images/reach.svg" alt="views" />
+                  <p class="text-sm text-neutral-500">99.6K</p>
+                </div>
+                <div>
+                  <img src="../../public/images/share.svg" alt="share" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div
+        class="rounded-[100px] flex px-8 py-3 justify-center items-center gap-2.5 bg-searchbar-fill fixed bottom-20 translate-x-1/2 transform right-1/2"
+      >
+        <p class="text-[15px] whitespace-nowrap">Copied to clipboard.</p>
+      </div>
+      <div class="p-4 rounded-[32px] bg-twitter-blue-default shadow-button fixed bottom-24 right-5 cursor-pointer">
+        <img src="../../public/images/content-add.svg" alt="add tweet" />
+      </div>
+    </main>
+    <footer
+      class="border-t border-neutral-800 bg-neutral-1000 fixed bottom-0 w-full"
+    >
+      <section class="px-6 py-[18px] flex gap-10 items-center justify-center">
+        <img src="../../public/images/home-icon.svg" alt="home-icon" />
+        <img src="../../public/images/profile-icon.svg" alt="profile-icon" />
+      </section>
+    </footer>
+  </body>
+</html>
