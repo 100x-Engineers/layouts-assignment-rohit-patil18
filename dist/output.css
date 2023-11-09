@@ -611,6 +611,10 @@ video {
   margin-top: 0.25rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -655,6 +659,10 @@ video {
   width: 566px;
 }
 
+.w-input-2 {
+  width: 434px;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -681,8 +689,16 @@ video {
   cursor: pointer;
 }
 
+.resize-none {
+  resize: none;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -763,6 +779,10 @@ video {
 
 .rounded-\[32px\] {
   border-radius: 32px;
+}
+
+.rounded-button-small {
+  border-radius: 30px;
 }
 
 .border {
@@ -846,6 +866,11 @@ video {
   background-color: rgb(33 35 39 / var(--tw-bg-opacity));
 }
 
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
 .p-medium-1 {
   padding: 8px 24px;
 }
@@ -860,6 +885,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-small-2 {
+  padding: 12px 24px;
 }
 
 .px-1 {
@@ -1011,6 +1040,10 @@ video {
   line-height: 1.5;
 }
 
+.leading-none {
+  line-height: 1;
+}
+
 .text-neutral-1000 {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1042,6 +1075,10 @@ video {
 
 .text-\[\] {
   color: ;
+}
+
+.caret-twitter-blue-default {
+  caret-color: #1D9BF0;
 }
 
 .shadow-button {
@@ -1086,6 +1123,11 @@ video {
 .focus\:text-neutral-50:focus {
   --tw-text-opacity: 1;
   color: rgb(249 249 249 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .group:focus-within .group-focus-within\:text-twitter-blue-default {
